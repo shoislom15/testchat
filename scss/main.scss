@@ -1,0 +1,119 @@
+.text-yellow {
+    color: #e56f00;
+}
+
+.fs-7{
+    font-size: 14px;
+}
+
+.bg-blue{
+    background-color: #90e0ef;
+}
+
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 5px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+
+
+
+
+#chatSection{
+    background-color: #DF8200;
+    // background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-group-img{
+        width: 40px;
+        border-radius: 5px;
+    }
+
+    .groupImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+
+    .right{
+        position: relative;
+    }
+
+    
+    .birov-yozgan-habar{
+        border-radius: 15px 15px 15px 0 !important;
+    }
+    
+    .ozi-yozgan-habar{
+        border-radius: 15px 15px 0 15px !important;
+    }
+
+    .m-set{
+        position: absolute;
+        width: 200px;
+        right: 20px;
+        top: -3px;
+        z-index: 1000;
+    }
+
+    .li-hover{
+        
+        ul{
+            li{
+                &:hover{
+                    background-color: rgb(224, 224, 224);
+                }
+            }
+        }
+    }
+
+    // Allanbalo uzgarishlar
+
+    // .bg-white{
+    //     background-color: #90e0ef !important;
+    // }
+
+    .rounded{
+        border-radius: 10px !important;
+    }
+
+    footer{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        .border-0 {
+            border: none !important;
+            outline: none !important;
+        }
+    }
+}
+

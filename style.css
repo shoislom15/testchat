@@ -1,0 +1,63 @@
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-image: url(./js/danist-soh-bviex5lwf3s-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+
+#chat{
+    height: 100%;
+}
+
+#chat .container{
+}
+
+form input{
+    border: none !important;
+    outline: none !important;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+margin-top: 20px;
+}
+
+img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.w-400 {
+width: 400px;
+border: none;
+}
+
+.fs-18 {
+font-size: 18px;
+}
+
+.fs-14 {
+font-size: 14px;
+}
+
+#addForm {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
